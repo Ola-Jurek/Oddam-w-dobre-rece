@@ -1,0 +1,24 @@
+.statistics {
+  background: url("../assets/3 Columns Background.png");
+  background-size: cover;
+  height: 300px;
+  margin: 180px 0 40px 0;
+  display: flex;
+  justify-content: space-around;
+  color: #5E5322;
+}
+.statistics .column {
+  width: 25vw;
+}
+.statistics .statistic_number {
+  font: normal normal 300 80px/100px "Open Sans", sans-serif;
+  margin: 15px 0;
+}
+.statistics .statistic_info {
+  font: normal normal normal 18px/30px "Open Sans", sans-serif, uppercase;
+  text-transform: uppercase;
+  letter-spacing: -0.36px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=statistics.css.map */

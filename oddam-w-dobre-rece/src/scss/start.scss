@@ -1,0 +1,94 @@
+@import "settings/_fonts.scss";
+@import "settings/_colors.scss";
+
+.header {
+  //width: 100vw;
+  display: flex;
+  justify-content: end;
+
+}
+    .header_photo {
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      left: -400px;
+      width: 80vw;
+      height: 663px;
+      background: transparent url('../assets/Hero Image.png') 0% 0% no-repeat padding-box;
+      background-size: contain;
+      opacity: 1;
+    }
+
+    .header_right {
+      display: flex;
+      flex-direction: column;
+      .header_nav {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+      }
+
+      .header_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+.nav_log {
+  margin: 0 20px;
+    }
+.nav_main {
+  margin: 30px 0 150px 0;
+  }
+
+
+.button_big {
+  width: 140px;
+  height: 30px;
+  border: 0.75px solid transparent;
+  opacity: 1;
+  background-color: inherit;
+  font: normal normal normal 18px $font-base;
+  color: $grey;
+  padding-right: 30px;
+  text-align: center;
+  margin-top: 30px;
+
+  &:hover {
+    border-color: #FAD648;
+  }
+}
+
+.button_small {
+      position: relative;
+      left: 0;
+      width: 130px;
+      height: 36px;
+      border: 0.75px solid transparent;
+      opacity: 1;
+      background-color: inherit;
+      font: normal normal normal 13px $font-base;
+      color: $grey;
+      margin: 5px 10px 60px 0;
+
+
+
+      &:hover {
+        border-color: #FAD648;
+      }
+    }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+

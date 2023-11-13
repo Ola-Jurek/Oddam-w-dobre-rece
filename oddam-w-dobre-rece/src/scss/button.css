@@ -1,0 +1,22 @@
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+.button_container .border {
+  text-align: center;
+  width: 280px;
+  height: 135px;
+  border: 0.25px solid #3C3C3C;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 0 20px;
+}
+.button_container .btn {
+  opacity: 1;
+  text-transform: uppercase;
+  text-align: center;
+  font: normal normal 300 36px/45px Open Sans;
+  letter-spacing: 0;
+  color: #3C3C3C;
+}
+
+/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,65 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.log .log_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F0F1F1;
+  width: 300px;
+  height: 220px;
+  padding-bottom: 20px;
+}
+.log label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font: normal normal 600 16px/40px "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #3C3C3C;
+}
+.log input {
+  background-color: inherit;
+  border-bottom: 0.5px solid #3C3C3C;
+}
+.log .log_buttons {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.log .log_buttons .log_btn {
+  font: normal normal 300 18px/32px "Open Sans", sans-serif;
+  border: 0.5px solid transparent;
+  padding: 5px 15px;
+}
+.log .log_buttons .log_btn:hover {
+  border: 0.5px solid #3C3C3C;
+}
+.log .log_buttons_out {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.log .log_buttons_out .log_btn {
+  font: normal normal 300 18px/32px "Open Sans", sans-serif;
+  border: 0.5px solid transparent;
+  padding: 5px 15px;
+}
+.log .log_buttons_out .log_btn:hover {
+  border: 0.5px solid #3C3C3C;
+}
+
+/*# sourceMappingURL=log_form.css.map */

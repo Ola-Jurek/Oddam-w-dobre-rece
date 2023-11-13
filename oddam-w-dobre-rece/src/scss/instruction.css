@@ -1,0 +1,24 @@
+.instruction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0 30px 0;
+  padding: 50px 0;
+  background: #F0F1F1 0 0;
+}
+.instruction .column {
+  width: 150px;
+}
+.instruction .icon {
+  background-size: cover;
+  border: none;
+}
+.instruction .black_line {
+  border-bottom: 1px solid black;
+  width: 100px;
+  align-items: center;
+  margin: 15px 0 15px 25px;
+}
+
+/*# sourceMappingURL=instruction.css.map */

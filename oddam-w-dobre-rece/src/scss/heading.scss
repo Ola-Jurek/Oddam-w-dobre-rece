@@ -1,0 +1,22 @@
+@import './settings/_fonts.scss';
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .heading_text {
+    font: normal normal normal 30px/50px $font-base;
+    text-align: center;
+    color: #3C3C3C;
+    letter-spacing: -0.76px;
+    //padding-right: 80px;
+  }
+  .decoration {
+    background:url("../assets/Decoration.png") no-repeat;
+    height: 33px;
+    width: 253px;
+    margin: 20px 0 20px 0;
+  }
+}

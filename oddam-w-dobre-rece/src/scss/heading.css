@@ -1,0 +1,20 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading .heading_text {
+  font: normal normal normal 30px/50px "Open Sans", sans-serif;
+  text-align: center;
+  color: #3C3C3C;
+  letter-spacing: -0.76px;
+}
+.heading .decoration {
+  background: url("../assets/Decoration.png") no-repeat;
+  height: 33px;
+  width: 253px;
+  margin: 20px 0 20px 0;
+}
+
+/*# sourceMappingURL=heading.css.map */

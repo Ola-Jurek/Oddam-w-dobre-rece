@@ -1,0 +1,29 @@
+@import './settings/_fonts.scss';
+
+.statistics {
+  background: url("../assets/3 Columns Background.png");
+  background-size: cover;
+  //width: 100vw;
+  height: 300px;
+  margin: 180px 0 40px 0;
+  display: flex;
+  justify-content: space-around;
+  color: #5E5322;
+
+  .column {
+    width: 25vw;
+  }
+
+  .statistic_number {
+    font: normal normal 300 80px/100px $font-base;
+    margin: 15px 0;
+  }
+
+  .statistic_info {
+    font: normal normal normal 18px/30px $font-alt;
+    text-transform: uppercase;
+    letter-spacing: -0.36px;
+    margin-bottom: 20px;
+  }
+}
+

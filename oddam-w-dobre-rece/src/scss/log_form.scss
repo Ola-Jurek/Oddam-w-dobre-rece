@@ -1,0 +1,70 @@
+@import '../scss/settings/_fonts.scss';
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .log_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F0F1F1;
+    width: 300px;
+    height: 220px;
+    padding-bottom: 20px;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font: normal normal 600 16px/40px $font-base;
+    letter-spacing: 0;
+    color: #3C3C3C;
+  }
+  input {
+    background-color: inherit;
+    border-bottom: 0.5px solid #3C3C3C;
+  }
+  .log_buttons {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .log_btn {
+      font: normal normal 300 18px/32px $font-base;
+      border: 0.5px solid transparent;
+      padding: 5px 15px;
+
+      &:hover {
+        border: 0.5px solid #3C3C3C;
+      }
+    }
+  }
+  .log_buttons_out {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
+    .log_btn {
+      font: normal normal 300 18px/32px $font-base;
+      border: 0.5px solid transparent;
+      padding: 5px 15px;
+
+      &:hover {
+        border: 0.5px solid #3C3C3C;
+      }
+    }
+  }
+}
